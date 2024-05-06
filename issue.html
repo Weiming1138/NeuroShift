@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>NeuroShift</title>
+  <link rel="icon" type="image/svg" href="assets/favicon.svg">
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <link rel="stylesheet" type="text/css" href="iconScroll.css">
+  <link rel="stylesheet" type="text/css" href="loader-style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="menu-button-style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Kanit:wght@400;500;900&family=Montserrat:wght@500;700&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="stylesheet" type="text/css" href="fade-in-style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script defer src="issueScript.js"></script>
+</head>
+
+<body>
+  <!--MENU PAGE-->
+  <div id="menu-page-background-container">
+    <div id="menu-page-background">
+    </div>
+    <div id="menu-page-links-container">
+      <div id="menu-page-links" class="menufont">
+        <a class="link" href="index.html">
+          <p id="home-link" class="menu-link" data-value="Home">Home</p>
+        </a>
+        <a class="link" href="issue.html">
+          <p id="the-issue-link" class="menu-link" data-value="Home">The Issue</p>
+        </a>
+        <a class="link" href="solutions.html">
+          <p id="solutions-link" class="menu-link" data-value="Home">Solutions</p>
+        </a>
+        <a class="link" href="aboutUs.html">
+          <p id="about-link" class="menu-link" data-value="Home">About Us</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="menu-section">
+    <label id="menu-button" for="check">
+      <input type="checkbox" id="check" onclick="menu()" />
+      <span class="menu-button-span"></span>
+      <span class="menu-button-span"></span>
+      <span class="menu-button-span"></span>
+    </label>
+  </div>
+  <!--LOADER-->
+  <div id="loader">
+    <div class="sk-cube-grid">
+      <div class="sk-cube sk-cube1"></div>
+      <div class="sk-cube sk-cube2"></div>
+      <div class="sk-cube sk-cube3"></div>
+      <div class="sk-cube sk-cube4"></div>
+      <div class="sk-cube sk-cube5"></div>
+      <div class="sk-cube sk-cube6"></div>
+      <div class="sk-cube sk-cube7"></div>
+      <div class="sk-cube sk-cube8"></div>
+      <div class="sk-cube sk-cube9"></div>
+    </div>
+  </div>
+  <!--VIDEO BACKGROUNDS-->
+  <div id="clock-video-container">
+    <!--<video id="clock-video" class="video-background" preload="true" autoplay loop muted>
+      <source src="assets/clock-video.mp4" type="video/mp4" />
+    </video>--->
+    <iframe id="clock-video" class="video-background" src="https://www.youtube.com/embed/1lJb-u6qBcQ?autoplay=1&loop=1&modestbranding=1&rel=0&iv_load_policy=3&fs=0&controls=0&disablekb=1&playlist=1lJb-u6qBcQ&mute=1" width="560" height="315" title=" " frameborder="0"></iframe>
+  </div>
+  <div id="roads-background-div">
+    <!--<video id="roads-video" class="video-background" preload="true" autoplay loop muted>
+        <source src="assets/roads-video.mp4" type="video/mp4" />
+      </video>-->
+    <!--<iframe id="roads-video" class="video-background" src="https://www.youtube.com/embed/MLaID3wzLq8?autoplay=1&loop=1&modestbranding=1&rel=0&iv_load_policy=3&fs=0&controls=0&disablekb=1&playlist=MLaID3wzLq8&mute=1" width="560" height="315" title=" " frameborder="0"></iframe>-->
+    <iframe id="roads-video" class="video-background" src="https://www.youtube.com/embed/-wNl0nGAVpM?autoplay=1&loop=1&modestbranding=1&rel=0&iv_load_policy=3&fs=0&color=white&controls=0&disablekb=1&playlist=-wNl0nGAVpM&mute=1" width="560" height="315" title="ㅤ" frameborder="0"></iframe>
+  </div>
+  <div id="attention-video-container">
+    <!--<video id="attention-video" class="video-background" preload="true" autoplay loop muted>
+      <source src="assets/attention-video.mp4" type="video/mp4" /> 
+    </video>-->
+    <iframe id="attention-video" class="video-background" src="https://www.youtube.com/embed/KlpWOlEHCj0?autoplay=1&loop=1&modestbranding=1&rel=0&iv_load_policy=3&fs=0&controls=0&disablekb=1&playlist=KlpWOlEHCj0&mute=1" width="560" height="315" title=" " frameborder="0"></iframe>
+  </div>
+  <!---->
+  <!--INTRO SECTION-->
+  <section id="intro-section">
+    <div class="spacer"></div>
+    <div id="intro-title-container">
+      <h1 id="intro-title" class="hfont fade-1">There's a hazard in your pocket.</h1>
+    </div>
+    <div id="intro-text-container">
+      <p id="intro-text" class="pfont fade-2">Our smartphone addiction is <b><u>reshaping our brains.</u></b> Spending hours staring at screens daily brings the urgency of understanding <b class="orangred-text"><u>neuroplasticity</u></b>. Delve deeper to uncover the significant impacts of excessive screen time on cognitive health.</p>
+    </div>
+    <div id="intro-scroll-text-container">
+      <p id="intro-scroll-text" class="pfont fade-3">Scroll down to learn more.</p>
+    </div>
+    <div id="intro-scroll-icon-container" class="fade-4">
+      <img id="intro-scroll-icon" src="assets/iconScroll.png"></img>
+    </div>
+    <div class="spacer"></div>
+  </section>
+  <!--WHAT IS PLASTICITY SECTION-->
+  <section>
+    <h1 id="plasticity-intro-title" class="font">What is Neuroplasticity?</h1>
+    <div class="multi-text-box">
+      <div class="text-box fixed">
+        <p id="plasticity-intro-text-1" class="pfont">Picture your brain like a <b>bustling city</b>, with <b>pathways and connections</b> that can <b>evolve and grow</b> over time. This adaptability is known as <b>neuroplasticity<b>.</p>
+      </div>
+      <div class="text-box fixed">
+        <p id="plasticity-intro-text-2" class="pfont">Neuroplasticity is your brain's ability to reorganize itself. Like <b>muscles</b>, it <b>grows stronger with use</b>. Learning new skills creates new <b>connections</b> between neurons, like building roads in a city. Conversely, unused skills can <b><u>weaken or fade</u></b>, akin to neglected roads.<!-- You can learn more about the physical effects of neuroplasticity <a target="_blank" id="plasticity-link" href="https://psychscenehub.com/psychinsights/what-is-neuroplasticity-a-simplified-guide/">here</a>.--></p>
+      </div>
+    </div>
+  </section>
+  <!--INTRO TO IMPACT OF SHORT FORM CONTENT SECTION-->
+  <section>
+    <div>
+      <h1 id="impact-intro-title" class="hfont">Impact of Short Form Content</h1>
+    </div>
+    <div class="text-box">
+      <p id="impact-intro-text" class="pfont"><span class="red-text bolder"><b><u>71% of people</b></u> spend <b><u>more time</u></b> on their <b><u>phone</u></b> than with their <i><b><u>romantic partner</u></b></i>!</span> The amount of time we dedicate to consuming short-form content has <b><u>significant neurological effects on our brains.<u></b></p>
+    </div>
+  </section>
+  <!--ATTENTION SPAN SECTION-->
+  <section>
+    <div>
+      <h1 id="attention-span-title" class="hfont">Attention Span</h1>
+    </div>
+    <div class="multi-text-box">
+      <div class="text-box fixed">
+        <p id="attention-span-text-1" class="pfont">Constant exposure to rapid content can train the brain for fast information intake, possibly <b><u>reducing attention spans</u></b> due to <b><u>getting used to quick shifts in focus</u></b>.</p>
+      </div>
+      <div class="text-box fixed">
+        <p id="attention-span-text-2" class="pfont">Shortened attention spans can be <b><u>detrimental</u></b> to our lives, <b><u>harming learning and productivity</u></b> in schools and workplaces. This <b><u>impacts academic performance</u></b> for students and <b><u>hinders task focus</u></b> for employees, ultimately <b><u>limiting growth and well-being.</u></b></p>
+      </div>
+    </div>
+  </section>
+  <!--LEARNING & MEMORY SECTION-->
+  <section>
+    <div>
+      <h1 id="learning-memory-title" class="hfont">Learning and Memory</h1>
+    </div>
+    <div class="multi-text-box">
+      <div class="text-box fixed">
+        <p id="learning-memory-text-1" class="pfont"><b><u>Breaking information into smaller pieces can lead to superficial learning</u></b>. The brain may memorize facts without understanding or connecting them, similar to <b><u>recognizing a road without knowing its destination</u></b>.</p>
+      </div>
+      <div class="text-box fixed">
+        <p id="learning-memory-text-2" class="pfont">Short-form content's influence on learning extends to <u><b>long-term success</b></u>. In school, <b><u>superficial learning can hinder understanding complex concepts</u></b>, impacting career prospects. Similarly, in the workplace, <b><u>reliance on fragmented information can impede with problem-solving skills</u></b>, distrupting professional growth.</p>
+      </div>
+    </div>
+  </section>
+  <!--ADAPTATION & POTENTIAL SECTION-->
+  <section>
+    <div>
+      <h1 id="potential-title" class="hfont">Adaptation and Potential</h1>
+    </div>
+    <div class="text-box">
+      <p id="potential-text" class="pfont">While there are downsides, the brain's adaptability also means that we can train it to reverse negative effects. Doing things such as engaging in activities that require longer focus can offset these effects, enhancing sustained attention and deeper learning. <b><u>Discover ways to counteract negative impacts!<u></b></p>
+    </div>
+    <div id="discover-solutions-button-div">
+      <a id="discover-solutions-link" class="btn-animate btn-orange btn" href="solutions.html">
+        <div id="discover-solutions-div">
+          <p id="discover-solutions" class="font">Discover Solutions</p>
+        </div>
+      </a>
+    </div>
+  </section>
+  <script src="loaderScript.js"></script>
+  <script src="scriptMenu.js"></script>
+  <script src="video-resizing-script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+html,
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: 1vw;
+  height: auto;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#about-us {
+  margin-top: 10vh;
+}
+
+#mission-div {
+  margin-top: 10vh;
+  background-color: grey;
+  border-radius: 5%;
+  padding: 2vw;
+  box-shadow: 0px 5px 10px rgba(244, 242, 242, 0.852), 0px 15px 40px rgba(213, 209, 208, 0.356);
+}
+
+
+
+/* contact */
+#contact-div {
+  margin-top: 10vh;
+  background-color: grey;
+  margin-bottom: 10vh;
+  border-radius: 5%;
+  box-shadow: 0px 5px 10px rgba(246, 246, 246, 0.852), 0px 15px 40px rgba(234, 234, 237, 0.274);
+}
+
+#contact-title {
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+}
+
+img {
+  border-radius: 5%;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.people-div {
+  width: 25vw;
+  height: 27.5vw;
+  border-width: 5px;
+  border-color: white;
+  border-style: solid;
+  margin-bottom: 5vw;
+  border-radius: 3%;
+}
+
+.image {
+  width: 15vw;
+}
+
+/*TEXT CLASSES*/
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title {
+  font-size: 6.665vw;
+}
+
+.sub-title {
+  font-size: 3vw;
+}
+
+.text {
+  font-size: 2.25vw;
+  line-height: 3.6vw;
+}
+
+.sub-text {
+  font-size: 1.5vw;
+  line-height: 2.4vw;
+}
+
+.white-text {
+  color: white;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.width-80vw {
+  width: 80vw;
+}
+
+.width-90vw {
+  width: 90vw;
+}
+
+.width-100vw {
+  width: 100vw;
+}
+
+.height-100vh {
+  height: 100vh;
+}
+
+

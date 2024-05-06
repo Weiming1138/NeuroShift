@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>NeuroShift</title>
+  <link rel="icon" type="image/svg" href="assets/favicon.svg">
+  <link rel="stylesheet" type="text/css" href="style3.css">
+  <link rel="stylesheet" type="text/css" href="loader-style.css">
+  <link rel="stylesheet" type="text/css" href="menu-button-style.css">
+  <link rel="stylesheet" type="text/css" href="iconScroll.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Kanit:wght@400;500;900&family=Montserrat:wght@500;700&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="stylesheet" type="text/css" href="fade-in-style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="solutionsScript.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <!--VIDEO BACKGROUNDS-->
+  <div id="habits-container">
+    <!--<video id="habits-video" class="video-background  z-index-0" class="video-background" preload="true" autoplay loop muted>
+      <source src="assets/solutions-videos.mp4" type="video/mp4" />
+    </video>-->
+    <iframe id="habits-video" class="video-background  z-index-0" class="video-background" src="https://www.youtube.com/embed/Uy63JOgZkWE?autoplay=1&loop=1&modestbranding=1&rel=0&iv_load_policy=3&fs=0&controls=0&disablekb=1&playlist=Uy63JOgZkWE&mute=1" width="560" height="315" title="" frameborder="0"></iframe>
+  </div>
+  <div id="awareness-vid-container" class="z-index-0">
+    <!--<video id="awareness-vid" class="video-background z-index-0" class="video-background" preload="true" autoplay loop muted>
+      <source src="assets/save-the-future.mp4" type="video/mp4" />
+    </video>-->
+    <iframe id="awareness-vid" class="video-background z-index-0" class="video-background" src="https://www.youtube.com/embed/B9IehAH-I_s?autoplay=1&loop=1&modestbranding=1&rel=0&iv_load_policy=3&fs=0&controls=0&disablekb=1&playlist=B9IehAH-I_s&mute=1" width="560" height="315" title="" frameborder="0"></iframe>
+  </div>
+  <!--MENU PAGE-->
+  <div id="menu-page-background-container">
+    <div id="menu-page-background">
+    </div>
+    <div id="menu-page-links-container">
+      <div id="menu-page-links" class="menufont">
+        <a class="link" href="index.html">
+          <p id="home-link" class="menu-link" data-value="Home">Home</p>
+        </a>
+        <a class="link" href="issue.html">
+          <p id="the-issue-link" class="menu-link" data-value="Home">The Issue</p>
+        </a>
+        <a class="link" href="solutions.html">
+          <p id="solutions-link" class="menu-link" data-value="Home">Solutions</p>
+        </a>
+        <a class="link" href="aboutUs.html">
+          <p id="about-link" class="menu-link" data-value="Home">About Us</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="menu-section">
+    <label id="menu-button" for="check">
+      <input type="checkbox" id="check" onclick="menu()" />
+      <span class="menu-button-span"></span>
+      <span class="menu-button-span"></span>
+      <span class="menu-button-span"></span>
+    </label>
+  </div>
+  <!--LOADER-->
+  <div id="loader">
+    <div class="sk-cube-grid">
+      <div class="sk-cube sk-cube1"></div>
+      <div class="sk-cube sk-cube2"></div>
+      <div class="sk-cube sk-cube3"></div>
+      <div class="sk-cube sk-cube4"></div>
+      <div class="sk-cube sk-cube5"></div>
+      <div class="sk-cube sk-cube6"></div>
+      <div class="sk-cube sk-cube7"></div>
+      <div class="sk-cube sk-cube8"></div>
+      <div class="sk-cube sk-cube9"></div>
+    </div>
+  </div>
+  <!--LANDING SECTION-->
+  <section id="landing-section" class="z-index-2">
+    <div id="quote-container" class="z-index-2 fade-1">
+      <p id="quote-text" class="font">"Small habits don't add up.<br>They compound. That's<br>the power of Atomic<br>Habits. Tiny changes.<br>Remarkable results."</p>
+    </div>
+    <div id="keep-scrolling-container">
+      <p id="keep-scrolling" class="font poppins-bold z-index-2 fade-2">Scroll To Explore Solutions!</p>
+    </div>
+    <div id="intro-scroll-icon-container" class="fade-3">
+      <img id="intro-scroll-icon" src="assets/iconScroll.png"></img>
+    </div>
+  </section>
+  <section id="spacer-section">
+  </section>
+  <!--RECOGNIZING HABITS SECTION-->
+  <section id="recognizing-habit-section" class="z-index-2">
+    <p id="recognizing-habit-title" class="font title poppins-bold">Recognize the Habit</p>
+    <!--TRACK SCREEN TIME-->
+    <div id="track-screen-time-div" class="width-80vw text-align-left">
+      <div id="track-screen-time-info">
+        <p id="track-screen-time" class="font poppins-bold sub-title">Track Screen Time</p>
+        <p id="track-screen-time-text" class="font poppins-regular text">Utilize <b><u>screen time tracking apps</u></b> or <b><u>built-in features</u></b> on digital devices to monitor usage patterns and <b><u>identify trends</u></b>. These tools provide detailed breakdowns of time spent on different apps and websites, allowing for a comprehensive analysis of digital consumption habits.</p>
+      </div>
+      <div id="track-screen-time-visual">
+        <div class="app-section top-app-section">
+          <div class="app-bar">
+            <div><img class="media-icon" src="assets/tik-tok-icon.png" alt=""></div>
+            <div class="bar-name">
+              <div class="poppins-regular app-name">TikTok</div>
+              <div id="bar-container1">
+                <div id="bar1" class="bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="app-section">
+          <div class="app-bar">
+            <div><img class="media-icon" src="assets/Instagram-Icon.png" alt=""></div>
+            <div class="bar-name">
+              <div class="poppins-regular app-name">Instagram</div>
+              <div id="bar-container2">
+                <div id="bar2" class="bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="app-section bottom-app-section">
+          <div class="app-bar">
+            <div><img class="media-icon" src="assets/youtube-app-icon.webp" alt=""></div>
+            <div class="bar-name">
+              <div class="poppins-regular app-name">Youtube</div>
+              <div id="bar-container3">
+                <div id="bar3" class="bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--FIND THE CAUSE-->
+    <div id="find-the-cause-div" class=" text-align-left">
+      <div id="find-the-cause-info">
+        <p id="find-the-cause-title" class="font poppins-bold sub-title">Find the Pattern</p>
+        <p id="find-the-cause-text" class="font poppins-regular text">Consider how your smartphone use affects your mood. <b><u>Notice</u></b> if you rely on it for comfort, distraction, or validation during moments of stress or boredom. Recognizing these patterns can <b><u>empower you</u></b> to make mindful choices about your device usage.</p>
+      </div>
+      <!--
+      <div id="find-the-cause-visual">
+        <p class="font text">THIS IS A PLACEHOLDER</p>
+      </div>
+      -->
+    </div>
+  </section>
+  <!--REPLACING SCROLLING SECTION-->
+  <section id="more-doing-less-scrolling-section" class="z-index-2">
+    <p id="do-more-title" class="title poppins-bold text-align-left">More doing,<br>Less scrolling</p>
+    <!--MAKE PHONE LESS APPEALING SUBSECTION-->
+    <div id="phone-less-appealing-div">
+      <p id="phone-less-appealing-title" class="poppins-bold sub-title text-align-left">Make Your Phone less Appealing</p>
+      <p id="phone-less-appealing-text" class="poppins-regular text text-align-left">By intentionally making your phone <b>less enticing</b>, you naturally <b>decrease your phone usage</b>. </p>
+    </div>
+    <div id="phone-less-appealing-visual">
+      <div class="icon-and-text">
+        <div id="icon-1" class="icon-container">
+          <img class="icon" src="assets/nonotif.png" alt="">
+        </div>
+        <div id="icon-text-1" class="text-align-left icon-text">
+          <p class="sub-sub-title poppins-bold">Turn Off Notifications</p>
+          <p class="poppins-regular sub-text">Turn off notifications to minimize distractions and <b>maintain focus</b>. By <b>silencing constant alerts</b>, you create a quieter digital environment conducive to productivity and peace of mind.</p>
+        </div>
+      </div>
+      <div class="icon-and-text">
+        <div id="icon-2" class="icon-container">
+          <img class="icon" src="assets/nophone.png" alt="">
+        </div>
+        <div id="icon-text-2" class="text-align-left icon-text">
+          <p class="sub-sub-title poppins-bold">Make Access Hard</p>
+          <p class="poppins-regular sub-text">Keep your phone out of reach, and use <b>app blockers</b> or screen time management to <b>limit access</b> to distracting apps. For extra support, try <a target="_blank" href="https://www.screenzen.co" id="screenzen">ScreenZen</a>.</p>
+        </div>
+      </div>
+      <div class="icon-and-text">
+        <div id="icon-3" class="icon-container">
+          <img class="icon" src="assets/grayscale.png" alt="">
+        </div>
+        <div id="icon-text-3" class="text-align-left icon-text">
+          <p class="sub-sub-title poppins-bold">Turn On Grayscale</p>
+          <p class="poppins-regular sub-text">Try using grayscale mode on your phone to tone down its <b>visual appeal</b>, making it "ugly". This offers a less stimulating experience, helping you <b>regain control</b> over screen time and <b>focus on priorities.</p>
+        </div>
+      </div>
+    </div>
+    <!--REPLACE SCROLLING SUBSECTION-->
+    <div id="replace-scrolling-div" class="text-align-left">
+      <p id="replace-scrolling-title" class="poppins-bold sub-title">Find Alternatives</p>
+      <p id="replace-scrolling-text" class="poppins-regular text">Shift your focus from mindless scrolling to <b>meaningful activities</b> aligned with your interests and goals. Explore hobbies like cooking, painting, or playing an instrument, and make time for outdoor activities and exercise. Take this short <a target="_blank" href="https://hobbyfinder.io/test/" id="hobbyquiz">quiz</a> to see what hobbies you may like!</a>
+    </div>
+    <!--REGAINING FOCUS SUBSECTION-->
+    <div id="regain-your-focus-div" class="text-align-left">
+      <p id="regain-your-focus-title" class="sub-title poppins-bold">Regain Your Focus</p>
+      <p id="regain-your-focus-text" class="text poppins-regular">The internet has <b>shortened our attention spans</b>, making focus hard. But we can get it back.</p>
+    </div>
+    <div id="regain-your-focus-visual">
+      <div class="icon-and-text">
+        <div id="icon-4" class="icon-container-2">
+          <img class="icon-2" src="assets/delay.png" alt="">
+        </div>
+        <div id="icon-text-4" class="text-align-left icon-text">
+          <p class="sub-sub-title poppins-bold">Delayed Gratification</p>
+          <p class="poppins-regular sub-text">This is a method where you postpone immediate rewards for long-term benefits. By resisting distractions and rewarding yourself only after completing tasks, you <b>cultivate patience and discipline</b>.</p>
+        </div>
+      </div>
+      <div class="icon-and-text">
+        <div id="icon-5" class="icon-container-2">
+          <img class="icon-2" src="assets/timeblock.png" alt="">
+        </div>
+        <div id="icon-text-5" class="text-align-left icon-text">
+          <p class="sub-sub-title poppins-bold">Time Blocking</p>
+          <p class="poppins-regular sub-text">This technique divides your day into focused blocks for tasks, minimizing distractions and <b>promoting deeper concentration</b>. By allocating specific time slots, you create a structured schedule that enhances productivity. </p>
+        </div>
+      </div>
+      <div class="icon-and-text">
+        <div id="icon-6" class="icon-container-2">
+          <img class="icon-2" src="assets/pomodoro.png" alt="">
+        </div>
+        <div id="icon-text-6" class="text-align-left icon-text">
+          <p class="sub-sub-title poppins-bold">Pomodoro Technique</p>
+          <p class="poppins-regular sub-text">This strategy enhances focus through short bursts of work followed by brief breaks. Working for 25 minutes, then resting for 5 minutes, <b>capitalizes on the brain's rhythm</b>, preventing burnout and improving productivity.</p>
+        </div>
+      </div>
+    </div>
+    <!--STAYING CONSISTENT SUBSECTION-->
+    <div id="stay-consistent-div" class="text-align-left">
+      <p id="stay-consistent-title" class="poppins-bold sub-title">Stay Consistent</p>
+      <p id="stay-consistent-text" class="poppins-regular text">Consistency is crucial when navigating short form content. Instead of making drastic changes, focus on <b>small adjustments over time</b>. Reflect on your progress regularly, adjust as needed, and celebrate small victories.</p>
+    </div>
+  </section>
+  <!--SPREADING AWARENESS SECTION-->
+  <section id="spread-awareness-section" class="z-index-3">
+    <p id="spread-awareness-title" class="poppins-bold title white-text z-index-3">Help Spread Awareness</p>
+    <div id="spread-awareness-text-container">
+      <p id="spread-awareness-text" class="poppins-regular text white-text z-index-3">The future lies within the people, highlighting the crucial role of raising awareness. <b>By equipping individuals with knowledge</b> and promoting engagement, <b>we sow the seeds for a brighter tomorrow</b>. Through education and collective action, we pave the way for positive change, <b>charting a course of hope for future generations</b>.</p>
+    </div>
+    <div id="spread-awareness-quote-container">
+      <p id="spread-awareness-quote" class="poppins-bold sub-title z-index-3 white-text">"I alone cannot change the world.<br>But I can cast a stone across the waters<br>to create many ripples."</p>
+    </div>
+    <div id="spread-awareness-end-container" class="poppins-bold white-text title z-index-4 fixed">
+      <p id="spread-awareness-end1" class="z-index-4">Create a Better Future!</p>
+      <div id="copy-link-icon" class="copy-link z-index-4">
+        <input type="text" class="copy-link-input poppins-regular sub-text" value="bit.ly/NeuroShift" readonly>
+        <button type="button" class="copy-link-button">
+          <span class="material-icons"><img id="copy-link-icon-image" src="assets/shareIcon.png" alt=""></span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!--BOTTOM SPACER SECTION-->
+  <section id="spacer-section-2">
+  </section>
+  <!--JAVASCRIPT-->
+  <script src="loaderScript.js"></script>
+  <script src="scriptMenu.js"></script>
+  <script src="copy-link-script.js"></script>
+  <script src="video-resizing-script2.js"></script>
+  <script defer src="solutionsScript.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+</body>
+
+</html>

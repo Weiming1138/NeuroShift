@@ -1,0 +1,393 @@
+/* CSS styles */
+/* Resetting default browser styles */
+html,
+body {
+  background-color: #0c1618;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: 1vw;
+  height: 1010vh;
+  /* Setting a large height to allow scrolling */
+}
+
+/* Global styles */
+* {
+  z-index: 50;
+  margin: 0;
+  padding: 0;
+}
+
+/* Font styles */
+.hfont {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  width: 100%;
+  font-size: 4.5vw;
+}
+
+.pfont {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+  font-size: 1.5vw;
+}
+
+.font {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+}
+
+/* Spacing */
+.spacer {
+  height: auto;
+}
+
+/* Container styles */
+.text-box {
+  width: 80vw;
+  font-weight: normal;
+}
+
+/* Fixed positioning */
+.fixed {
+  position: fixed;
+}
+
+/* Intro section styles */
+#intro-section {
+  padding-top: 4vw;
+}
+
+/* Intro title container styles */
+#intro-title-container {
+  margin: 0;
+}
+
+/* Intro title styles */
+#intro-title {
+  margin: 0;
+}
+
+/* Intro text container styles */
+#intro-text-container {
+  margin: 0;
+  width: 80vw;
+}
+
+/* Intro scroll text container styles */
+#intro-scroll-text-container {}
+
+/* Intro scroll text styles */
+#intro-scroll-text {
+  font-weight: bold;
+  text-decoration: underline;
+  top: -5vw;
+}
+
+/* Video container styles */
+/*#clock-video-container {
+  width: 99vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+}*/
+#clock-video-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Video styles */
+/*#clock-video {
+  height: auto;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  filter: brightness(25%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+#clock-video {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  filter: brightness(25%);
+  object-fit: cover;
+}
+
+/* Background video styles */
+.video-background {
+  height: auto;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: none;
+  filter: brightness(25%);
+}
+
+/* Roads background container styles */
+
+
+
+/* Roads background container styles */
+#roads-background-div {
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Attention video container styles */
+#attention-video-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 3;
+}
+
+/* Plasticity intro title styles */
+#plasticity-intro-title {
+  z-index: 100;
+  font-size: 3.5vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*plasticity link styles*/
+
+#plasticity-link {
+  color: #ff69c1;
+  transition: color .2s;
+  position: relative;
+  z-index: 5000;
+}
+
+#plasticity-link:hover {
+  color: #ff24a4;
+}
+
+/* Multi-text box styles, used when a section has more than one .text-box*/
+.multi-text-box {
+  height: 10vw;
+  width: 80vw;
+}
+
+/* Discover solutions link styles */
+#discover-solutions-link {
+  text-decoration: none;
+}
+
+/* Discover solutions div styles */
+#discover-solutions-div {
+  background-color: orangered;
+}
+
+#discover-solutions-button-div {
+  margin-top: -25px;
+}
+
+
+/* Discover solutions styles */
+#discover-solutions {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Button styles */
+.btn {
+  background: var(--colr-pri);
+  border: none;
+  padding: 0 1.5em;
+  line-height: 40px;
+  border-radius: 10px;
+  user-select: none;
+  cursor: pointer;
+  letter-spacing: 2px;
+  color: #fff;
+  position: relative;
+  margin: 3em 0;
+  transition: all 0.5s, ease;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  padding: 30px 60px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Orange button styles */
+.btn-orange {
+  background-color: orangered;
+  color: #fff;
+}
+
+.btn-orange::after {
+  background-color: orangered;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+/* Animated button styles */
+.btn-animated {
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* Potential text styles */
+#potential-text {
+  font-size: auto;
+}
+
+
+.red-text {
+  color: rgb(231, 121, 121);
+}
+
+.orangred-text {
+  color: orangered;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* Section styles */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  place-items: center;
+  align-content: center;
+  text-align: center;
+  min-height: 100vh;
+  width: 99vw;
+  position: fixed;
+}
+
+/* Hidden state styles */
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+/* Show state styles */
+.show {
+  opacity: 1;
+}
+
+/* Reduced motion media query */
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .hfont {
+    font-size: 5.5vw;
+  }
+
+  .pfont {
+    font-size: 2vw;
+  }
+
+  .btn {
+    padding: 4vw 8vw;
+  }
+
+  .multi-text-box {
+    height: 15vh;
+  }
+
+  #discover-solutions-button-div {
+    margin-top: -5vw;
+  }
+
+  #potential-text {
+    font-size: 2vw;
+  }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  .hfont {
+    font-size: 11vw;
+  }
+
+  .pfont {
+    font-size: 3vw;
+  }
+
+  .btn {
+    padding: 5vw 10vw;
+  }
+
+  .multi-text-box {
+    height: 20vh;
+  }
+
+  #discover-solutions-button-div {
+    margin-top: -8vw;
+  }
+
+  #potential-text {
+    font-size: 3vw;
+  }
+}

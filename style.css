@@ -1,0 +1,195 @@
+/* Reset and basic styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c1618;
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Font styles */
+.font {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  width: 100%;
+}
+
+/* Page structure */
+#page {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Landing page section */
+#landing-page-section {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Main title */
+#main-title {
+  font-size: 96px;
+  margin: 0;
+}
+
+#main-title-container {
+  width: 80vw;
+}
+
+/* Main text */
+#main-text-box {
+  width: 80vw;
+}
+
+#main-text {
+  font-size: 32px;
+  color: #FFFAFA;
+  /*font-weight: bolder;*/
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Learn more button */
+#learn-more-button-link {
+  text-decoration: none;
+  margin: none;
+}
+
+#learn-more-button {
+  width: 325px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-image: none;
+  transition: 0.5s;
+}
+
+#learn-more {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  transition: all 0.2s;
+}
+
+/* Spacer */
+.spacer {
+  height: auto;
+}
+
+/* Z-index */
+.z-index-3 {
+  z-index: 3;
+}
+
+.z-index-4 {
+  z-index: 4;
+}
+
+/* Button animation */
+.btn:link {
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.btn:active, 
+.btn:visited {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-orange {
+  background-color: orangered;
+  color: #fff;
+}
+
+.btn-orange:after {
+  background-color: orangered;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn-animated {
+  animation: moveInBottom 10s ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* Media queries */
+@media (max-width: 988px) {
+  /* Main title */
+  #main-title {
+    font-size: 12vw;
+  }
+
+  /* Main text */
+  #main-text-box {
+    width: 80%;
+  }
+
+  #main-text {
+    font-size: 3.5vw;
+  }
+
+  #learn-more {
+    font-size: 4vw;
+  }
+
+  
+}
+
+
+
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+  /* Learn more button */
+  #learn-more-button {
+    width: 40vw; /* Adjust width relative to viewport width for smaller screens */
+    height: 8vh; /* Adjust height relative to viewport height for smaller screens */
+  }
+
+  #learn-more {
+    font-size: 5vw; /* Adjust font size relative to viewport width for smaller screens */
+  }
+}

@@ -1,0 +1,1166 @@
+/* General styling for HTML and body */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(40, 40, 43);
+  height: auto;
+  width: 100vw;
+  scrollbar-width: 1vw;
+  overflow-x: hidden;
+  /* Prevent horizontal scrollbar */
+}
+
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for sections */
+section {
+  width: 99vw;
+  text-align: center;
+}
+
+/* Set width to 80vw and margin left to 10vw */
+.width-80vw {
+  width: 80vw;
+  margin-left: 10vw;
+}
+
+/* Video background styling */
+.video-background {
+  height: auto;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: none;
+}
+
+/* Habits video container */
+#habits-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* Habits video */
+#habits-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Awareness video container */
+#awareness-vid-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* Awareness video */
+#awareness-vid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Landing section styling */
+#landing-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  gap: 2vw;
+  overflow: hidden;
+}
+
+/* Quote container styling */
+#quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 70vw;
+  margin-top: 10vh;
+}
+
+/* Quote text styling */
+#quote-text {
+  font-size: 10vh;
+  font-weight: lighter;
+}
+
+/* Intro scroll text */
+#intro-scroll-text {
+  font-weight: bold;
+  text-decoration: underline;
+  top: -1.5vw;
+}
+
+/* Keep scrolling text */
+#keep-scrolling {
+  font-size: 2.5vh;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Spacer section */
+#spacer-section {
+  height: 20vw;
+}
+
+/* Recognizing habit section styling */
+#recognizing-habit-section {
+  width: 99vw;
+}
+
+/* Track screen time div */
+#track-screen-time-div {
+  margin-top: 5vw;
+  height: 52.5vw;
+}
+
+/* Track screen time info */
+#track-screen-time-info {
+  width: 52.5vw;
+}
+
+/* Track screen time text */
+#track-screen-time-text {
+  margin-top: 1.5vw;
+  width: 52.5vw;
+}
+
+/* Track screen time visual */
+#track-screen-time-visual {
+  height: 21vw;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-width: 0vw;
+  border-color: lightgrey;
+  border-radius: 1vw;
+  border-style: solid;
+  margin-top: 3.5vw;
+}
+
+/* App section styling */
+.app-section {
+  height: 7vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: lightgrey;
+}
+
+/* Top app section */
+.top-app-section {
+  border-top-left-radius: 0.9vw;
+  border-top-right-radius: 0.9vw;
+}
+
+/* Bottom app section */
+.bottom-app-section {
+  border-bottom-left-radius: 0.9vw;
+  border-bottom-right-radius: 0.9vw;
+}
+
+/* App bar styling */
+.app-bar {
+  margin-left: 1vw;
+  height: 5vw;
+  display: flex;
+}
+
+/* Bar name styling */
+.bar-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 1vw;
+}
+
+/* Bar container 1 styling */
+#bar-container1 {
+  height: 1.7vw;
+  border-radius: 0.4vw;
+  width: 39vw;
+  overflow: hidden;
+}
+
+/* Bar container 2 styling */
+#bar-container2 {
+  height: 1.7vw;
+  border-radius: 0.4vw;
+  width: 33vw;
+  overflow: hidden;
+}
+
+/* Bar container 3 styling */
+#bar-container3 {
+  height: 1.7vw;
+  border-radius: 0.4vw;
+  width: 31vw;
+  overflow: hidden;
+}
+
+/* Bar styling */
+.bar {
+  background-color: #007AFF;
+  height: 1.7vw;
+  border-radius: 0.4vw;
+}
+
+/* Bar 1 styling */
+#bar1 {
+  width: 39vw;
+}
+
+/* Bar 2 styling */
+#bar2 {
+  width: 33vw;
+}
+
+/* Bar 3 styling */
+#bar3 {
+  width: 21vw;
+}
+
+/* App name styling */
+.app-name {
+  font-size: 2vw;
+}
+
+/* Media icon styling */
+.media-icon {
+  height: 5vw;
+  width: 5vw;
+}
+
+/* Find the cause div styling */
+#find-the-cause-div {
+  margin-top: 10vw;
+  margin-left: 40vw;
+  width: 50vw;
+}
+
+/* Find the cause info styling */
+#find-the-cause-info {
+  width: 52.5vw;
+}
+
+/* Find the cause text styling */
+#find-the-cause-text {
+  margin-top: 1.5vw;
+}
+
+/* Find the cause visual styling */
+#find-the-cause-visual {
+  margin: none;
+  margin-top: 2vw;
+  width: 52.5vw;
+}
+
+/* More doing less scrolling section styling */
+#more-doing-less-scrolling-section {
+  margin-left: 8vw;
+}
+
+/* Do more title styling */
+#do-more-title {
+  line-height: 8vw;
+}
+
+/* Phone less appealing title styling */
+#phone-less-appealing-title {
+  color: black;
+  margin-top: 15vw;
+}
+
+/* Phone less appealing text styling */
+#phone-less-appealing-text {
+  margin-top: 1vw;
+  width: 50vw;
+}
+
+/* Phone less appealing visual styling */
+#phone-less-appealing-visual {
+  margin-top: 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+
+/* Screenzen styling */
+#screenzen {
+  color: #6f70e5;
+  transition: color .2s;
+}
+
+#screenzen:hover {
+  color: #0c0ede;
+}
+
+/* Hobby quiz styling */
+#hobbyquiz {
+  color: #e4794b;
+  transition: color .2s;
+}
+
+#hobbyquiz:hover {
+  color: #ff601c;
+}
+
+/* Icon styling */
+.icon {
+  width: 12vw;
+  height: 12vw;
+}
+
+/* Icon container styling */
+.icon-container {
+  background-color: lightgrey;
+  border-radius: 1vw;
+  margin-right: 3vw;
+  height: 12vw;
+}
+
+/* Icon and text styling */
+.icon-and-text {
+  display: flex;
+  width: 60vw;
+}
+
+/* Icon text styling */
+.icon-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Replace scrolling div styling */
+#replace-scrolling-div {
+  margin-left: 35vw;
+  margin-top: 10vw;
+}
+
+/* Replace scrolling text styling */
+#replace-scrolling-text {
+  width: 50vw;
+  margin-top: 1vw;
+}
+
+/* Regain your focus div styling */
+#regain-your-focus-div {
+  margin-top: 10vw;
+}
+
+/* Regain your focus text styling */
+#regain-your-focus-text {
+  margin-top: 1vw;
+  width: 50vw;
+}
+
+/* Icon 2 styling */
+.icon-2 {
+  width: 10vw;
+  height: 10vw;
+}
+
+/* Icon container 2 styling */
+.icon-container-2 {
+  background-color: lightgrey;
+  border-radius: 1vw;
+  margin-right: 3vw;
+  height: 10vw;
+  padding: 1vw;
+}
+
+/* Regain your focus visual styling */
+#regain-your-focus-visual {
+  margin-top: 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+
+/* Stay consistent div styling */
+#stay-consistent-div {
+  width: 60vw;
+  margin-top: 10vw;
+}
+
+/* Stay consistent text styling */
+#stay-consistent-text {
+  margin-top: 1vw;
+}
+
+/* Spread awareness title styling */
+#spread-awareness-title {
+  margin-top: 10vw;
+}
+
+/* Spread awareness text container styling */
+#spread-awareness-text-container {
+  width: 80vw;
+  margin-left: 10vw;
+  height: auto;
+  margin-top: -50vw;
+}
+
+/* Spread awareness quote container styling */
+#spread-awareness-quote-container {
+  width: 80vw;
+  margin-left: 10vw;
+  height: auto;
+  margin-top: -50vw;
+}
+
+/* Spread awareness end container styling */
+#spread-awareness-end-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100vw;
+}
+
+/* Copy link icon styling */
+#copy-link-icon {
+  margin-top: -125vw;
+}
+
+/* Copy link styling */
+.copy-link {
+  --height: 4vw;
+  display: flex;
+}
+
+/* Copy link input styling */
+.copy-link-input {
+  flex-grow: 1;
+  padding: 0 5vw;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  border-right: none;
+  outline: none;
+}
+
+/* Copy link input hover styling */
+.copy-link-input:hover {
+  background: #eeeeee;
+}
+
+/* Copy link button styling */
+.copy-link-button {
+  flex-shrink: 0;
+  width: var(--height);
+  height: var(--height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dddddd;
+  color: #333333;
+  outline: none;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+}
+
+/* Copy link button hover styling */
+.copy-link-button:hover {
+  background: #cccccc;
+}
+
+/* Copy link icon image styling */
+#copy-link-icon-image {
+  width: 2.5vw;
+  height: 2.5vw;
+  filter: hue-rotate(90);
+}
+
+/* Input text alignment styling */
+input {
+  text-align: center;
+}
+
+/* Spacer section 2 styling */
+#spacer-section-2 {
+  height: 175vw;
+  background-color: black;
+}
+
+/* Utilities styling */
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.z-index-0 {
+  z-index: 1;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.z-index-3 {
+  z-index: 3;
+}
+
+.z-index-4 {
+  z-index: 4;
+}
+
+.z-index-5 {
+  z-index: 5;
+}
+
+.z-index-6 {
+  z-index: 6;
+}
+
+.white-text {
+  color: white;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: flex-start;
+}
+
+.font {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+}
+
+/* Poppins bold font styling */
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Poppins regular font styling */
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Title font styling */
+.title {
+  font-size: 6.665vw;
+}
+
+/* Subtitle font styling */
+.sub-title {
+  font-size: 3vw;
+}
+
+/* Text font styling */
+.text {
+  font-size: 2.25vw;
+  line-height: 3.6vw;
+}
+
+/* Subtext font styling */
+.sub-text {
+  font-size: 1.5vw;
+  line-height: 2.4vw;
+}
+
+/* Sub-subtitle font styling */
+.sub-sub-title {
+  font-size: 2vw;
+}
+
+/* Video background styling */
+.video-background {
+  height: auto;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: none;
+  filter: brightness(25%);
+}
+
+/* Quote and scroll text responsiveness */
+@media (max-aspect-ratio: 1792/1000) {
+  #quote-text {
+    font-size: 9vh;
+  }
+}
+
+@media (max-aspect-ratio: 1600/1000) {
+  #quote-text {
+    font-size: 8vh;
+  }
+
+  #quote-container {
+    margin-top: 15vh;
+  }
+}
+
+@media (max-aspect-ratio: 1440/1000) {
+  #quote-text {
+    font-size: 7vh;
+  }
+
+  #quote-container {
+    margin-top: 20vh;
+  }
+}
+
+@media (max-aspect-ratio: 1269/1000) {
+  #quote-text {
+    font-size: 6vh;
+  }
+
+  #quote-container {
+    margin-top: 25vh;
+  }
+}
+
+@media (max-aspect-ratio: 1095/1000) {
+  #quote-text {
+    font-size: 5vh;
+  }
+
+  #quote-container {
+    margin-top: 30vh;
+  }
+}
+
+@media (max-aspect-ratio: 921/1000) {
+  #quote-text {
+    font-size: 4vh;
+  }
+
+  #quote-container {
+    margin-top: 35vh;
+  }
+}
+
+@media (max-aspect-ratio: 747/1000) {
+  #quote-text {
+    font-size: 3vh;
+  }
+
+  #keep-scrolling {
+    font-size: 2vh;
+  }
+
+  #quote-container {
+    margin-top: 40vh;
+  }
+}
+
+@media (max-aspect-ratio: 573/1000) {
+  #quote-text {
+    font-size: 2.5vh;
+  }
+
+  #keep-scrolling {
+    font-size: 1.75vh;
+  }
+
+  #quote-container {
+    margin-top: 43vh;
+  }
+}
+
+@media (max-aspect-ratio: 486/1000) {
+  #quote-text {
+    font-size: 2vh;
+  }
+
+  #keep-scrolling {
+    font-size: 1.5vh;
+  }
+
+  #quote-container {
+    margin-top: 46vh;
+  }
+}
+
+/* Spacer section 2 responsiveness */
+@media (max-aspect-ratio: 1422/1000) {
+  #spacer-section-2 {
+    height: 180vw;
+  }
+
+  #copy-link-icon {
+    margin-top: -150vw;
+  }
+}
+
+@media (max-aspect-ratio: 1385/1000) {
+  #spacer-section-2 {
+    height: 200vw;
+  }
+}
+
+@media (max-aspect-ratio: 1320/1000) {
+  #spacer-section-2 {
+    height: 220vw;
+  }
+
+  #copy-link-icon {
+    margin-top: -175vw;
+  }
+}
+
+@media (max-aspect-ratio: 1301/1000) {
+  #spacer-section-2 {
+    height: 240vw;
+  }
+}
+
+@media (max-aspect-ratio: 1210/1000) {
+  #spacer-section-2 {
+    height: 260vw;
+  }
+
+  .copy-link {
+    transform: scale(1.2);
+  }
+
+  #copy-link-icon {
+    margin-top: -200vw;
+  }
+}
+
+@media (max-aspect-ratio: 1165/1000) {
+  #spacer-section-2 {
+    height: 300vw;
+  }
+
+  .copy-link {
+    transform: scale(1.2) scale(1.2);
+  }
+}
+
+@media (max-aspect-ratio: 1072/1000) {
+  #spacer-section-2 {
+    height: 340vw;
+  }
+
+  .copy-link {
+    transform: scale(1.2) scale(1.2) scale(1.2);
+  }
+
+  #copy-link-icon {
+    margin-top: -225vw;
+  }
+}
+
+@media (max-aspect-ratio: 987/1000) {
+  #spacer-section-2 {
+    height: 380vw;
+  }
+
+  .copy-link {
+    transform: scale(1.2) scale(1.2) scale(1.2) scale(1.1);
+  }
+}
+
+@media (max-aspect-ratio: 936/1000) {
+  #spacer-section-2 {
+    height: 450vw;
+  }
+
+  .copy-link {
+    transform: scale(1.2) scale(1.2) scale(1.2) scale(1.1) scale(1.1);
+  }
+
+  #copy-link-icon {
+    margin-top: -250vw;
+  }
+}
+
+@media (max-aspect-ratio: 839/1000) {
+  #spacer-section-2 {
+    height: 500vw;
+  }
+
+  .copy-link {
+    transform: scale(1.2) scale(1.2) scale(1.2) scale(1.1) scale(1.1) scale(1.1);
+  }
+}
+
+@media (max-aspect-ratio: 777/1000) {
+  #spacer-section-2 {
+    height: 550vw;
+  }
+
+  .copy-link {
+    transform: scale(1.2) scale(1.2) scale(1.2) scale(1.1) scale(1.1) scale(1.1);
+  }
+
+  #copy-link-icon {
+    margin-top: -275vw;
+  }
+}
+
+@media (max-aspect-ratio: 716/1000) {
+  #spacer-section-2 {
+    height: 600vw;
+  }
+
+  .copy-link {
+    transform: scale(1.2) scale(1.2) scale(1.2) scale(1.1) scale(1.1) scale(1.1);
+  }
+}
+
+@media (max-aspect-ratio: 666/1000) {
+  #spacer-section-2 {
+    height: 650vw;
+  }
+
+  .copy-link {
+    transform: scale(1.2) scale(1.2) scale(1.2) scale(1.1) scale(1.1) scale(1.1);
+  }
+
+  #copy-link-icon {
+    margin-top: -300vw;
+  }
+}
+
+@media (max-aspect-ratio: 537/1000) {
+  #spacer-section-2 {
+    height: 750vw;
+  }
+
+  .copy-link {
+    transform: scale(1.2) scale(1.2) scale(1.2) scale(1.1) scale(1.1) scale(1.1);
+  }
+
+  #copy-link-icon {
+    margin-top: -312.5vw;
+  }
+}
+
+@media (max-aspect-ratio: 473/1000) {
+  #spacer-section-2 {
+    height: 800vw;
+  }
+
+  .copy-link {
+    transform: scale(1.2) scale(1.2) scale(1.2) scale(1.1) scale(1.1) scale(1.1);
+  }
+
+  #copy-link-icon {
+    margin-top: -325vw;
+  }
+}
+
+/* Media queries for responsive design */
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+
+  /* Subtitle font styling */
+  .sub-title {
+    font-size: 4.5vw;
+  }
+
+  /* Text font styling */
+  .text {
+    font-size: 3.375vw;
+    line-height: 5.4vw;
+  }
+
+  /* Subtext font styling */
+  .sub-text {
+    font-size: 2.25vw;
+    line-height: 3.6vw;
+  }
+
+  /* Sub-subtitle font styling */
+  .sub-sub-title {
+    font-size: 2vw;
+  }
+
+  /* Recognizing habit section */
+  #recognizing-habit-section {
+    margin-top: 5vh;
+  }
+
+  /* Track screen time div */
+  #track-screen-time-div {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #track-screen-time-info {
+  }
+
+  /* Track screen time visual */
+  #track-screen-time-visual {
+    margin-top: 5vh;
+  }
+
+  /**/
+  /* App section styling */
+  .app-section {
+    height: 7vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: lightgrey;
+  }
+
+  /* Top app section */
+  .top-app-section {
+    border-top-left-radius: 0.9vw;
+    border-top-right-radius: 0.9vw;
+  }
+
+  /* Bottom app section */
+  .bottom-app-section {
+    border-bottom-left-radius: 0.9vw;
+    border-bottom-right-radius: 0.9vw;
+  }
+
+  /* App bar styling */
+  .app-bar {
+    margin-left: 1vw;
+    height: 5vw;
+    display: flex;
+  }
+
+  /* Bar name styling */
+  .bar-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1vw;
+  }
+
+  /* Bar container 1 styling */
+  #bar-container1 {
+    height: 1.7vw;
+    border-radius: 0.4vw;
+    width: 39vw;
+    overflow: hidden;
+  }
+
+  /* Bar container 2 styling */
+  #bar-container2 {
+    height: 1.7vw;
+    border-radius: 0.4vw;
+    width: 33vw;
+    overflow: hidden;
+  }
+
+  /* Bar container 3 styling */
+  #bar-container3 {
+    height: 1.7vw;
+    border-radius: 0.4vw;
+    width: 31vw;
+    overflow: hidden;
+  }
+
+  /* Bar styling */
+  .bar {
+    background-color: #007AFF;
+    height: 1.7vw;
+    border-radius: 0.4vw;
+  }
+
+  /* Bar 1 styling */
+  #bar1 {
+    width: 39vw;
+  }
+
+  /* Bar 2 styling */
+  #bar2 {
+    width: 33vw;
+  }
+
+  /* Bar 3 styling */
+  #bar3 {
+    width: 21vw;
+  }
+
+  /* App name styling */
+  .app-name {
+    font-size: 2vw;
+  }
+
+  /* Media icon styling */
+  .media-icon {
+    height: 5vw;
+    width: 5vw;
+  }
+
+  /**/
+  /* Find the cause div */
+  #find-the-cause-div {
+    margin-left: 10vw;
+  }
+
+  /* Find the cause visual */
+  #find-the-cause-visual {
+    margin-top: 5vh;
+  }
+
+  /* More doing less scrolling section */
+  #more-doing-less-scrolling-section {
+    margin-left: 5vw;
+  }
+
+  /* Replace scrolling div */
+  #replace-scrolling-div {
+    margin-left: 10vw;
+  }
+
+  /* Replace scrolling visual */
+  #replace-scrolling-visual {
+    margin-top: 5vh;
+  }
+
+  /* Regain your focus div */
+  #regain-your-focus-div {
+    margin-top: 5vh;
+  }
+
+  /* Regain your focus visual */
+  #regain-your-focus-visual {
+    margin-top: 5vh;
+  }
+
+  /* Stay consistent div */
+  #stay-consistent-div {
+    margin-top: 5vh;
+  }
+
+  /* Spread awareness text container */
+  #spread-awareness-text-container {
+    margin-top: 5vh;
+  }
+
+  /* Spread awareness quote container */
+  #spread-awareness-quote-container {
+    margin-top: 5vh;
+  }
+
+  /* Spread awareness end container */
+  #spread-awareness-end-container {
+    margin-top: 5vh;
+  }
+}
+
+/* For screens between 768px and 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Keep scrolling text */
+  /* Recognizing habit section */
+  #recognizing-habit-section {
+    margin-top: 5vh;
+  }
+
+  /* Track screen time div */
+  #track-screen-time-div {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Track screen time visual */
+  #track-screen-time-visual {
+    margin-top: 5vh;
+  }
+
+  /* Find the cause div */
+  #find-the-cause-div {
+    margin-left: 10vw;
+  }
+
+  /* Find the cause visual */
+  #find-the-cause-visual {
+    margin-top: 5vh;
+  }
+
+  /* More doing less scrolling section */
+  #more-doing-less-scrolling-section {
+    margin-left: 5vw;
+  }
+
+  /* Replace scrolling div */
+  #replace-scrolling-div {
+    margin-left: 10vw;
+  }
+
+  /* Replace scrolling visual */
+  #replace-scrolling-visual {
+    margin-top: 5vh;
+  }
+
+  /* Regain your focus div */
+  #regain-your-focus-div {
+    margin-top: 5vh;
+  }
+
+  /* Regain your focus visual */
+  #regain-your-focus-visual {
+    margin-top: 5vh;
+  }
+
+  /* Stay consistent div */
+  #stay-consistent-div {
+    margin-top: 5vh;
+  }
+
+  /* Spread awareness text container */
+  #spread-awareness-text-container {
+    margin-top: 5vh;
+  }
+
+  /* Spread awareness quote container */
+  #spread-awareness-quote-container {
+    margin-top: 5vh;
+  }
+
+  /* Spread awareness end container */
+  #spread-awareness-end-container {
+    margin-top: 5vh;
+  }
+}
